@@ -14,3 +14,9 @@ library(docopt)
 opt <- docopt(doc)
 print(opt)
 print(typeof(opt))
+# define main function
+main <- function(){
+    print("main function")
+}
+# call main function
+main()
